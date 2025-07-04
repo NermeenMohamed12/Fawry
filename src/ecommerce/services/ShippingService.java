@@ -5,7 +5,7 @@ import ecommerce.interfaces.Shippable;
 import java.util.List;
 import java.util.Map;
 
-public class ShippingService {
+public class  ShippingService {
     public static void ship(List<Shippable> items, Map<String, Integer> counts) {
         double totalWeight = 0;
         System.out.println("** Shipment notice **");
